@@ -8,10 +8,15 @@ import {name as appName} from './app.json';
 
 const store = configureStore();
 
+const MyHeadlessTask = async () => {
+    console.log('Receiving Sutcu!');
+  };
+
 const RNRedux = () => (
     <Provider store={store}>
         <App/>
     </Provider>
 );
 
+AppRegistry.registerHeadlessTask('Sutcu', () => MyHeadlessTask);
 AppRegistry.registerComponent(appName, () => RNRedux);

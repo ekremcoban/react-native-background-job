@@ -8,9 +8,13 @@ import PlaceList from './src/components/PlaceList/PlaceList';
 import PlaceDetail from './src/components/PlaceDetail/PlaceDetail';
 import { addPlace, deletePlace, selectPlace, unSelectPlace } from './src/store/actions/index';
 
+import ESaha from "./ESaha";
+
 class App extends Component {
 
   placeAddedHandler = placeName => {
+    console.log("Ekledi")
+    ESaha.startService();
     this.props.onAddPlace(placeName);
   };
 

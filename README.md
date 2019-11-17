@@ -10,4 +10,4 @@ react-native link react-native-background-job
 
 
 Originally from --> https://medium.com/reactbrasil/how-to-create-an-unstoppable-service-in-react-native-using-headless-js-93656b6fd5d1
-You can find inform more --> https://www.npmjs.com/package/react-native-background-job
+You can find more information  --> https://www.npmjs.com/package/react-native-background-job
